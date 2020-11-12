@@ -65,4 +65,54 @@ header {
 .adventure .product {
   padding: 0 8px; }
 
+.popular h2, .popular h3 {
+  text-align: center;
+  text-transform: uppercase; }
+.popular img {
+  width: 320px; }
+.popular p {
+  text-align: center; }
+.popular .button {
+  text-align: center; }
+.popular .tours p {
+  border-bottom: 2px solid #e1e1e1;
+  padding: 5px 0 5px;
+  margin: 0 4px 0 4px; }
+.popular .tours-article {
+  background-color: #656565;
+  color: #fff; }
+  .popular .tours-article h3 {
+    color: #fff; }
+.popular button {
+  margin-top: 10px;
+  text-align: center;
+  padding: 8px 8px;
+  text-transform: uppercase;
+  font-size: 10px;
+  border: 1px solid;
+  border-radius: 30px;
+  color: #fff;
+  background-image: linear-gradient(to right, #1e5e6a, #1d626f, #1b6675, #196b7a, #166f80, #147385, #11778a, #0e7b8f, #0c8095, #09849c, #0689a2, #038ea9); }
+
+footer {
+  background-color: #2d4e54;
+  margin-top: 15px;
+  text-align: center; }
+  footer .footer-titles {
+    color: #fff; }
+
+.sco-net {
+  background-color: #0093af;
+  color: #fff;
+  border-radius: 20px; }
+
+.footer-bottom {
+  background-color: #1b373c;
+  color: #fff; }
+  .footer-bottom h4 {
+    text-transform: uppercase;
+    text-align: center; }
+  .footer-bottom p {
+    text-align: center; }
+
 /*# sourceMappingURL=main.css.map */
