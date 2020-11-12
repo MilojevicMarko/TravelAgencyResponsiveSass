@@ -1,0 +1,68 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,700;1,400&display=swap");
+* {
+  box-sizing: border-box; }
+
+body {
+  font-family: "Open Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f6f6f6; }
+
+header {
+  background-color: #1e5d69;
+  height: 85px;
+  text-transform: uppercase;
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+  padding: 0 7px 0 7px; }
+  header .header-logo {
+    display: flex; }
+    header .header-logo p {
+      padding-left: 5px; }
+  header nav {
+    margin-right: 8px; }
+    header nav ul {
+      display: flex;
+      align-items: center; }
+      header nav ul li {
+        padding-left: 10px; }
+      header nav ul a {
+        color: #fff; }
+  header .search {
+    display: flex;
+    justify-content: space-between; }
+
+.list-reset, header nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none; }
+  .list-reset a, header nav ul a {
+    text-decoration: none; }
+
+.top-section h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-top: 10px; }
+.top-section h3 {
+  text-align: center; }
+.top-section p {
+  text-align: justify; }
+.top-section img {
+  width: 320px; }
+
+.adventure .adventure-img {
+  background-image: url("../../images/blue-background.png");
+  background-repeat: no-repeat;
+  background-size: auto;
+  display: block; }
+  .adventure .adventure-img h2 {
+    text-transform: uppercase;
+    color: #ccc; }
+.adventure h4 {
+  text-align: center;
+  text-transform: uppercase; }
+.adventure .product {
+  padding: 0 8px; }
+
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,20 @@
+.adventure {
+  .adventure-img {
+    background-image: url("../../images/blue-background.png");
+    // background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+    display: block;
+    h2 {
+        text-transform: uppercase;
+        color: #ccc;
+  }
+}
+h4 {
+  text-align: center;
+  text-transform: uppercase;
+}
+.product {
+  padding: 0 8px;
+}
+}

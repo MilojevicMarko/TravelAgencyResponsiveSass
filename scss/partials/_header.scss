@@ -1,0 +1,37 @@
+header {
+  background-color: $header-color;
+  height: 85px;
+  text-transform: uppercase;
+  font-size: 8px;
+  display: flex;
+  align-items: center;
+  padding: 0 7px 0 7px;
+  .header-logo {
+    display: flex;
+    p {
+      padding-left: 5px;
+    }
+  }
+
+  nav {
+    margin-right: 8px;
+    ul {
+      display: flex;
+      align-items: center;
+      @extend .list-reset;
+
+      li {
+        padding-left: 10px;
+      }
+
+      a {
+        color: $white;
+
+      }
+    }
+  }
+  .search {
+    display: flex;
+    justify-content: space-between;
+  }
+}
