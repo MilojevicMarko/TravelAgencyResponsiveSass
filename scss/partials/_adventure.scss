@@ -1,12 +1,11 @@
 .adventure {
-  padding:0 15px;
+  padding: 0 15px;
   margin-bottom: 30px;
 
   .adventure-img {
     background-image: url("../../images/blue-background.png");
-    // background-position: center;
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     display: block;
 
     h2 {
@@ -19,13 +18,17 @@
   h4 {
     text-align: center;
     text-transform: uppercase;
+    color: #2d4e54;
   }
 
   .product {
     margin: 0;
-    padding: 10px 8px;
+    padding: 5px 8px;
+
     p {
       font-size: 12px;
+      background-color: #fff;
+      padding: 5px;
     }
   }
 }

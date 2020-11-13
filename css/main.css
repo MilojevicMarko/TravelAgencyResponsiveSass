@@ -6,7 +6,8 @@ body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
   padding: 0;
-  background-color: #f6f6f6; }
+  background-color: #f6f6f6;
+  color: #666; }
 
 header {
   background-color: #1e5d69;
@@ -15,7 +16,8 @@ header {
   font-size: 8px;
   display: flex;
   align-items: center;
-  padding: 0 7px; }
+  padding: 0 7px;
+  color: #fff; }
   header .header-logo {
     display: flex; }
     header .header-logo p {
@@ -49,7 +51,8 @@ header {
     color: #1e5d69; }
   .top-section h3 {
     text-align: center;
-    padding: 10px 0; }
+    padding: 10px 0;
+    color: #1e5d69; }
   .top-section p {
     text-align: justify;
     font-size: 12px; }
@@ -62,7 +65,7 @@ header {
   .adventure .adventure-img {
     background-image: url("../../images/blue-background.png");
     background-repeat: no-repeat;
-    background-size: auto;
+    background-size: cover;
     display: block; }
     .adventure .adventure-img h2 {
       text-transform: uppercase;
@@ -70,12 +73,15 @@ header {
       text-align: center; }
   .adventure h4 {
     text-align: center;
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    color: #2d4e54; }
   .adventure .product {
     margin: 0;
-    padding: 10px 8px; }
+    padding: 5px 8px; }
     .adventure .product p {
-      font-size: 12px; }
+      font-size: 12px;
+      background-color: #fff;
+      padding: 5px; }
 
 .popular {
   padding: 0 15px; }
@@ -114,11 +120,10 @@ header {
     background-image: linear-gradient(to right, #1e5e6a, #1d626f, #1b6675, #196b7a, #166f80, #147385, #11778a, #0e7b8f, #0c8095, #09849c, #0689a2, #038ea9); }
 
 footer {
+  padding: 15px 15px;
   background-color: #2d4e54;
-  margin-top: 10px;
-  padding-top: 10px;
-  text-align: center;
-  padding-bottom: 20px; }
+  margin-top: 15px;
+  text-align: center; }
   footer .footer-titles {
     color: #fff; }
 
@@ -128,13 +133,83 @@ footer {
   border-radius: 20px; }
 
 .footer-bottom {
+  padding: 5px 15px;
   background-color: #1b373c;
   color: #fff;
-  padding-bottom: 20px; }
+  display: flex;
+  justify-content: space-between;
+  font-size: 10px; }
   .footer-bottom h4 {
     text-transform: uppercase;
     text-align: center; }
   .footer-bottom p {
     text-align: center; }
+  .footer-bottom .footer-img {
+    display: flex;
+    justify-content: space-around; }
+
+@media all and (min-width: 768px) {
+  header {
+    padding: 0 15px;
+    font-size: 12px;
+    justify-content: space-around; }
+    header .header-logo img {
+      padding-right: 8px; }
+    header li {
+      padding-right: 15px; }
+    header .search img {
+      padding-right: 8px; }
+
+  .top-section {
+    padding: 0 20px; }
+    .top-section h1 {
+      margin: 40px 0 40px; }
+    .top-section main {
+      display: flex;
+      justify-content: space-around; }
+      .top-section main h3 {
+        padding-bottom: 20px; }
+      .top-section main p {
+        padding: 20px 20px 0 0;
+        font-size: 15px;
+        width: 350px; }
+
+  .adventure {
+    margin: 0;
+    padding: 0; }
+    .adventure .adventure-img {
+      background-position: center;
+      background-size: cover;
+      margin: 0;
+      padding: 0; }
+      .adventure .adventure-img h2 {
+        color: #fff;
+        padding-top: 20px; }
+
+  .products {
+    display: flex;
+    justify-content: space-around; }
+    .products .product {
+      background-color: #fff;
+      margin: 20px;
+      padding: 8px; }
+
+  .tours {
+    padding: 0 20px; }
+    .tours h3 {
+      font-size: 16px; }
+    .tours article {
+      background-color: #fff; }
+
+  footer .footer-titles {
+    display: flex;
+    justify-content: center; }
+    footer .footer-titles h4 {
+      margin-right: 20px; }
+  footer .soc-net article img {
+    padding: 20px 20px 0 0;
+    font-size: 20px; }
+  footer footer-img img {
+    padding-right: 10px; } }
 
 /*# sourceMappingURL=main.css.map */

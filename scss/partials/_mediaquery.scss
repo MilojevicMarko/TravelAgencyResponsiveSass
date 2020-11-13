@@ -1,0 +1,106 @@
+@media all and (min-width: 768px) {
+  header {
+    padding: 0 15px;
+    font-size: 12px;
+    justify-content: space-around;
+
+    .header-logo img {
+      padding-right: 8px;
+    }
+
+    li {
+      padding-right: 15px;
+    }
+
+    .search img {
+      padding-right: 8px;
+    }
+  }
+
+  .top-section {
+    padding: 0 20px;
+
+    h1 {
+      margin: 40px 0 40px;
+    }
+
+    main {
+      display: flex;
+      justify-content: space-around;
+
+
+      h3 {
+        padding-bottom: 20px;
+      }
+
+      p {
+        padding: 20px 20px 0 0;
+        font-size: 15px;
+        width: 350px;
+      }
+
+      img {}
+    }
+
+  }
+
+  .adventure {
+    margin: 0;
+    padding: 0;
+
+    .adventure-img {
+      background-position: center;
+      background-size: cover;
+      margin: 0;
+      padding: 0;
+
+      h2 {
+        color: $white;
+        padding-top: 20px;
+      }
+    }
+  }
+
+  .products {
+    display: flex;
+    justify-content: space-around;
+
+    .product {
+      background-color: $white;
+      margin: 20px;
+      padding: 8px;
+    }
+  }
+
+  .tours {
+    padding: 0 20px;
+
+    h3 {
+      font-size: 16px;
+    }
+
+
+    article {
+      background-color: $white;
+
+    }
+  }
+  footer {
+    .footer-titles {
+      display: flex;
+      justify-content: center;
+      h4 {
+        margin-right: 20px;
+      }
+    }
+    .soc-net article img {
+      padding: 20px 20px 0 0 ;
+      font-size: 20px;
+    }
+    footer-img {
+      img {
+      padding-right: 10px;
+      }
+    }
+  }
+}
