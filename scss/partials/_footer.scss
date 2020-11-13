@@ -1,26 +1,32 @@
 footer {
   background-color: #2d4e54;
-  margin-top: 15px;
+  margin-top: 10px;
+  padding-top: 10px;
   text-align: center;
+  padding-bottom: 20px;
+
   .footer-titles {
     color: $white;
   }
 }
+
 .sco-net {
   background-color: #0093af;
-  color:$white;
+  color: $white;
   border-radius: 20px;
-
 }
+
 .footer-bottom {
   background-color: #1b373c;
   color: $white;
+  padding-bottom: 20px;
+
   h4 {
     text-transform: uppercase;
     text-align: center;
   }
-  p{
+
+  p {
     text-align: center;
   }
 }
-

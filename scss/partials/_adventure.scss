@@ -1,20 +1,31 @@
 .adventure {
+  padding:0 15px;
+  margin-bottom: 30px;
+
   .adventure-img {
     background-image: url("../../images/blue-background.png");
     // background-position: center;
     background-repeat: no-repeat;
     background-size: auto;
     display: block;
+
     h2 {
-        text-transform: uppercase;
-        color: #ccc;
+      text-transform: uppercase;
+      color: #ccc;
+      text-align: center;
+    }
   }
-}
-h4 {
-  text-align: center;
-  text-transform: uppercase;
-}
-.product {
-  padding: 0 8px;
-}
+
+  h4 {
+    text-align: center;
+    text-transform: uppercase;
+  }
+
+  .product {
+    margin: 0;
+    padding: 10px 8px;
+    p {
+      font-size: 12px;
+    }
+  }
 }
