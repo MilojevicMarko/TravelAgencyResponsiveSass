@@ -35,5 +35,9 @@ footer {
   .footer-img {
     display: flex;
     justify-content: space-around;
+    img {
+      padding-right: 10px;
+    }
+    
   }
 }

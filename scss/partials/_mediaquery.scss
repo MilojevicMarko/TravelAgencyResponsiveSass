@@ -18,7 +18,7 @@
   }
 
   .top-section {
-    padding: 0 20px;
+    padding: 20px 20px;
 
     h1 {
       margin: 40px 0 40px;
@@ -28,18 +28,19 @@
       display: flex;
       justify-content: space-around;
 
-
       h3 {
         padding-bottom: 20px;
       }
 
       p {
         padding: 20px 20px 0 0;
-        font-size: 15px;
-        width: 350px;
+        font-size: 12px;
       }
 
-      img {}
+      img {
+        margin-top: 35px;
+        width: 350px;
+      }
     }
 
   }
@@ -51,24 +52,33 @@
     .adventure-img {
       background-position: center;
       background-size: cover;
-      margin: 0;
-      padding: 0;
+      padding: 60px 0 100px;
+
+      article {
+        .product-img-center {
+          padding: 15px 0;
+        }
+      }
 
       h2 {
         color: $white;
-        padding-top: 20px;
       }
     }
+  }
+
+  .popular {
+    padding: 25px 0 25px;
   }
 
   .products {
     display: flex;
     justify-content: space-around;
+    margin-top: 30px;
 
     .product {
       background-color: $white;
       margin: 20px;
-      padding: 8px;
+      width: 350px;
     }
   }
 
@@ -79,28 +89,170 @@
       font-size: 16px;
     }
 
-
     article {
       background-color: $white;
 
     }
   }
+
   footer {
     .footer-titles {
       display: flex;
       justify-content: center;
+
       h4 {
         margin-right: 20px;
       }
     }
+
     .soc-net article img {
-      padding: 20px 20px 0 0 ;
-      font-size: 20px;
+      padding: 0 20px;
     }
-    footer-img {
+  }
+
+  .footer-bootom-left {
+    display: flex;
+    justify-content: space-between;
+
+    .footer-img {
+      padding-right: 20px;
+
       img {
-      padding-right: 10px;
+        padding-right: 20px;
       }
+    }
+  }
+
+}
+
+@media all and (min-width: 1024px) {
+  header {
+    padding: 0 30px;
+
+    .header-logo {
+      font-size: 16px;
+      margin-right: 100px;
+
+      img {
+        padding-right: 15px;
+      }
+
+    }
+
+    nav {
+      font-size: 14px;
+
+      li {
+        padding-right: 20px;
+      }
+    }
+
+    .search {
+      margin-left: 100px;
+    }
+
+    .search img {
+      padding-right: 15px;
+    }
+  }
+
+  .top-section {
+    padding: 20px 30px;
+
+    h1 {
+      margin: 45px 0 80px;
+    }
+
+    main {
+      h3 {
+        padding-bottom: 30px;
+      }
+
+      p {
+        padding-bottom: 70px;
+        font-size: 13px;
+      }
+
+      img {
+        width: 600px;
+      }
+    }
+  }
+
+  .adventure {
+    h2 {
+      font-size: 30px;
+      padding-top: 80px;
+    }
+
+    .adventure-img {
+      background-repeat: no-repeat;
+      background-position: top;
+      height: 776px;
+
+      .products {
+        margin: 80px 35px 80px 35px;
+
+        .product {
+          width: 33.333%;
+
+        }
+
+        p {
+          font-size: 13px;
+        }
+
+        h4 {
+          font-size: 16px;
+          padding-bottom: 35px;
+        }
+
+      }
+
+    }
+  }
+
+  .popular {
+    padding: 0 100px;
+
+    h2 {
+      padding-bottom: 80px;
+    }
+
+    .tours {
+      padding: 0 30px;
+      margin-bottom: 50px;
+    }
+
+  }
+
+  .popular button {
+    margin-bottom: 50px;
+    font-size: 15px;
+    padding: 20px 20px;
+  }
+
+  .footer-titles {
+    padding: 40px 0 30px;
+  }
+
+  .soc-net {
+    padding-bottom: 35px;
+  }
+}
+
+@media all and (min-width: 1400px) {
+  .top-section {
+    padding: 0 30px;
+  }
+
+  main {
+    .paragraf p {
+      font-size: 16px;
+    }
+
+    img {
+      width: 800px;
     }
   }
 }
