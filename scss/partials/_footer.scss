@@ -9,10 +9,15 @@ footer {
   }
 }
 
-.sco-net {
-  background-color: #0093af;
-  color: $white;
-  border-radius: 20px;
+.soc-net {
+
+  img {
+    background-color: #0093af;
+    padding: 15px;
+    border-radius: 50px;
+    margin-right: 10px;
+  }
+
 }
 
 .footer-bottom {
@@ -35,9 +40,10 @@ footer {
   .footer-img {
     display: flex;
     justify-content: space-around;
+
     img {
       padding-right: 10px;
     }
-    
+
   }
 }

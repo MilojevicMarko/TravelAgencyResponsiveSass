@@ -104,10 +104,6 @@
         margin-right: 20px;
       }
     }
-
-    .soc-net article img {
-      padding: 0 20px;
-    }
   }
 
   .footer-bootom-left {
@@ -255,4 +251,26 @@
       width: 800px;
     }
   }
+
+  .adventure {
+    .products {
+      .product {
+        padding: 45px 30px 35px 20px;
+        font-size: 16px;
+
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .popular {
+    .tours {
+      article p {
+        font-size: 16px;
+      }
+    }
+  }
+
 }

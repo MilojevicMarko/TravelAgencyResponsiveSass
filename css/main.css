@@ -82,7 +82,8 @@ header {
     .adventure .product p {
       font-size: 12px;
       background-color: #fff;
-      padding: 5px; }
+      padding: 5px;
+      text-align: center; }
   .adventure .product-img-center {
     display: block;
     margin: 0 auto;
@@ -132,10 +133,11 @@ footer {
   footer .footer-titles {
     color: #fff; }
 
-.sco-net {
+.soc-net img {
   background-color: #0093af;
-  color: #fff;
-  border-radius: 20px; }
+  padding: 15px;
+  border-radius: 50px;
+  margin-right: 10px; }
 
 .footer-bottom {
   padding: 5px 15px;
@@ -219,8 +221,6 @@ footer {
     justify-content: center; }
     footer .footer-titles h4 {
       margin-right: 20px; }
-  footer .soc-net article img {
-    padding: 0 20px; }
 
   .footer-bootom-left {
     display: flex;
@@ -300,6 +300,15 @@ footer {
   main .paragraf p {
     font-size: 16px; }
   main img {
-    width: 800px; } }
+    width: 800px; }
+
+  .adventure .products .product {
+    padding: 45px 30px 35px 20px;
+    font-size: 16px; }
+    .adventure .products .product p {
+      font-size: 16px; }
+
+  .popular .tours article p {
+    font-size: 16px; } }
 
 /*# sourceMappingURL=main.css.map */
